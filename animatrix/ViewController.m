@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "GameScene.h"
 
+#import "MainMenu.h"
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -25,6 +27,14 @@
     
     self.skView.showsFPS = YES;
     self.skView.showsNodeCount = YES;
+    
+    
+    
+    //pass scene to mainmenu
+    MainMenu *mainMenu = (MainMenu*) [[NSApplication sharedApplication] mainMenu];
+    [mainMenu setAppScene: scene];
+    
+    [self.skView.window setAcceptsMouseMovedEvents: YES];
 }
 
 @end

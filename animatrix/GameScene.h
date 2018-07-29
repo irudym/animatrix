@@ -8,6 +8,22 @@
 
 #import <SpriteKit/SpriteKit.h>
 
+#import "AnimationBox.h"
+#import "UI.h"
+#import "UIComponent.h"
+
 @interface GameScene : SKScene
+
+-(void) setAnimation: (NSMutableArray*) frames;
+
+-(int) nextFrame;
+-(int) prevFrame;
+-(void) updateFrameCountLabel;
+
+@property NSMutableArray* animationFrames;
+@property AnimationBox* animationBox;
+@property float animationSpeed;
+@property UI *mainUI;
+@property int currentFrame;
 
 @end

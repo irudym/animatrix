@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788A0F491FF179D000844941 /* ui.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 788A0F481FF179D000844941 /* ui.atlas */; };
+		788A0F4C1FF1854300844941 /* UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F4B1FF1854300844941 /* UI.m */; };
+		788A0F501FF1860400844941 /* UIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 788A0F4F1FF1860400844941 /* UIComponent.m */; };
 		789E17E91FF0268300D1DBD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17E81FF0268300D1DBD2 /* AppDelegate.m */; };
 		789E17EB1FF0268300D1DBD2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 789E17EA1FF0268300D1DBD2 /* GameScene.sks */; };
 		789E17ED1FF0268300D1DBD2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 789E17EC1FF0268300D1DBD2 /* Actions.sks */; };
@@ -16,6 +19,9 @@
 		789E17F81FF0268300D1DBD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789E17F61FF0268300D1DBD2 /* Main.storyboard */; };
 		789E17FB1FF0268300D1DBD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E17FA1FF0268300D1DBD2 /* main.m */; };
 		789E18061FF0268300D1DBD2 /* animatrixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E18051FF0268300D1DBD2 /* animatrixTests.m */; };
+		789E18121FF0296100D1DBD2 /* SharedTextureAtlas.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E18111FF0296100D1DBD2 /* SharedTextureAtlas.m */; };
+		789E18151FF02D5F00D1DBD2 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E18141FF02D5F00D1DBD2 /* MainMenu.m */; };
+		789E18181FF051AD00D1DBD2 /* AnimationBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 789E18171FF051AD00D1DBD2 /* AnimationBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		784A6086210DFD8D00C4718A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		788A0F481FF179D000844941 /* ui.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ui.atlas; sourceTree = "<group>"; };
+		788A0F4A1FF1854300844941 /* UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		788A0F4B1FF1854300844941 /* UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI.m; sourceTree = "<group>"; };
+		788A0F4D1FF1856F00844941 /* UIProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIProtocol.h; sourceTree = "<group>"; };
+		788A0F4E1FF1860400844941 /* UIComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIComponent.h; sourceTree = "<group>"; };
+		788A0F4F1FF1860400844941 /* UIComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIComponent.m; sourceTree = "<group>"; };
 		789E17E41FF0268300D1DBD2 /* animatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789E17E71FF0268300D1DBD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		789E17E81FF0268300D1DBD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +59,12 @@
 		789E18011FF0268300D1DBD2 /* animatrixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		789E18051FF0268300D1DBD2 /* animatrixTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animatrixTests.m; sourceTree = "<group>"; };
 		789E18071FF0268300D1DBD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		789E18101FF0296100D1DBD2 /* SharedTextureAtlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedTextureAtlas.h; sourceTree = "<group>"; };
+		789E18111FF0296100D1DBD2 /* SharedTextureAtlas.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharedTextureAtlas.m; sourceTree = "<group>"; };
+		789E18131FF02D5F00D1DBD2 /* MainMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		789E18141FF02D5F00D1DBD2 /* MainMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		789E18161FF051AD00D1DBD2 /* AnimationBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationBox.h; sourceTree = "<group>"; };
+		789E18171FF051AD00D1DBD2 /* AnimationBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +88,8 @@
 		789E17DB1FF0268300D1DBD2 = {
 			isa = PBXGroup;
 			children = (
+				784A6086210DFD8D00C4718A /* README.md */,
+				788A0F481FF179D000844941 /* ui.atlas */,
 				789E17E61FF0268300D1DBD2 /* animatrix */,
 				789E18041FF0268300D1DBD2 /* animatrixTests */,
 				789E17E51FF0268300D1DBD2 /* Products */,
@@ -100,6 +121,17 @@
 				789E17F91FF0268300D1DBD2 /* Info.plist */,
 				789E17FA1FF0268300D1DBD2 /* main.m */,
 				789E17FC1FF0268300D1DBD2 /* animatrix.entitlements */,
+				789E18101FF0296100D1DBD2 /* SharedTextureAtlas.h */,
+				789E18111FF0296100D1DBD2 /* SharedTextureAtlas.m */,
+				789E18131FF02D5F00D1DBD2 /* MainMenu.h */,
+				789E18141FF02D5F00D1DBD2 /* MainMenu.m */,
+				789E18161FF051AD00D1DBD2 /* AnimationBox.h */,
+				789E18171FF051AD00D1DBD2 /* AnimationBox.m */,
+				788A0F4A1FF1854300844941 /* UI.h */,
+				788A0F4B1FF1854300844941 /* UI.m */,
+				788A0F4D1FF1856F00844941 /* UIProtocol.h */,
+				788A0F4E1FF1860400844941 /* UIComponent.h */,
+				788A0F4F1FF1860400844941 /* UIComponent.m */,
 			);
 			path = animatrix;
 			sourceTree = "<group>";
@@ -196,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				789E17EB1FF0268300D1DBD2 /* GameScene.sks in Resources */,
+				788A0F491FF179D000844941 /* ui.atlas in Resources */,
 				789E17F51FF0268300D1DBD2 /* Assets.xcassets in Resources */,
 				789E17ED1FF0268300D1DBD2 /* Actions.sks in Resources */,
 				789E17F81FF0268300D1DBD2 /* Main.storyboard in Resources */,
@@ -218,8 +251,13 @@
 			files = (
 				789E17F31FF0268300D1DBD2 /* ViewController.m in Sources */,
 				789E17F01FF0268300D1DBD2 /* GameScene.m in Sources */,
+				789E18121FF0296100D1DBD2 /* SharedTextureAtlas.m in Sources */,
 				789E17FB1FF0268300D1DBD2 /* main.m in Sources */,
 				789E17E91FF0268300D1DBD2 /* AppDelegate.m in Sources */,
+				788A0F4C1FF1854300844941 /* UI.m in Sources */,
+				789E18181FF051AD00D1DBD2 /* AnimationBox.m in Sources */,
+				789E18151FF02D5F00D1DBD2 /* MainMenu.m in Sources */,
+				788A0F501FF1860400844941 /* UIComponent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
